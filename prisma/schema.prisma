@@ -9,8 +9,8 @@ generator client {
   provider = "prisma-client-js"
 }  
 enum UserRole {
-  USER
   ADMIN
+  USER
 }
 
 model User {
